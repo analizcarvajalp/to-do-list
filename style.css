@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: linear-gradient(90deg,#491d3c ,#501f28);
+  color:white;
+}
+.borrar, .tachar{
+ background: none;
+ border:none;
+ cursor: pointer;
+
+font-size:20px;
+}
+.borrar{
+  color:#f82111;
+}
+.tachar{
+  color: #8bc34a;
+}
+.lista{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.todoContainer{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background: #ff7a7a2b;
+  padding: 20px;
+  
+}
+#campo{
+  width:100%
+}
+.inputContainer{
+  display:flex;
+}
+ul{
+  padding:0;
+  margin:0;
+}
+li{
+  border-bottom: 1px solid rgba(253, 253, 253, 0.445);
+  padding: 0 20px;
+}
+input{
+  outline:none;
+}
+button{
+  cursor: pointer;
+}
+#agregar{
+  background: #457b9d;
+  color:white;
+ border: 1px solid #ffffff70;
+  
+}
+.item-title{
+font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 0px;
+  color: #480d52;
+}
+.listos{
+background:#ffebeb29;
+}
+.btn-categoria{
+background: #4caf50;
+color:white;
+  border: 1px solid #ffffff70;
+  margin: 0;
+}
+.btn-container{
+ margin: 0 auto;
+ max-width: 260px;
+padding-top: 10px;
+}
